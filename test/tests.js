@@ -1,12 +1,29 @@
 const test = QUnit.test;
 
-test('time to test a function', function(assert) {
+function makeQueen(formData) {
+    const queen = {
+        name: formData.get('name'),
+        character: formData.get('character'),
+    };
+    return queen;
+}
+
+test('create user from form data', function(assert) {
     //Arrange
     // Set up your parameters and expectations
+    const formData = new FormData();
+    formData.set('name', 'Carlos');
+    formData.set('character', 'Valentina');
+
+    const expected = {
+        name: 'Carlos',
+        character: 'Valentina'
+    };
 
     //Act 
     // Call the function you're testing and set the result to a const
+    const queen = makeQueen(formData);
 
     //Assert
-    assert.equal(true, false);
+    assert.deepEqual(queen, expected);
 });
