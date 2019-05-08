@@ -36,7 +36,6 @@ const reading = {
     image: '#',
     description: 'Because reading is what? Fundamental! Put on your glasses and get ready to throw some shade, because the library is officially open.',
     choices: [{
-        choices: [{
         id: 'roxy',
         description: '"I think of Roxy Andrews every morning...at the bus stop"',
         result: `

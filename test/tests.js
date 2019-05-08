@@ -1,12 +1,6 @@
-const test = QUnit.test;
+import makeQueen from '../src/home/make-queen.js';
 
-function makeQueen(formData) {
-    const queen = {
-        name: formData.get('name'),
-        character: formData.get('character'),
-    };
-    return queen;
-}
+const test = QUnit.test;
 
 test('create user from form data', function(assert) {
     //Arrange
@@ -17,7 +11,9 @@ test('create user from form data', function(assert) {
 
     const expected = {
         name: 'Carlos',
-        character: 'Valentina'
+        character: 'Valentina',
+        lifeLine: '50',
+        cashTip: '0'
     };
 
     //Act 
