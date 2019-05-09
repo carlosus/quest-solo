@@ -16,4 +16,7 @@ queenForm.addEventListener('submit', event => {
 
     // Form event calls api.sigUp to save user
     api.signUp(queen);
+
+    //direct to map page after event
+    window.location = 'map.html';
 });

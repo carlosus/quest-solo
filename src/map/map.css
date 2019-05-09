@@ -1,0 +1,29 @@
+#avatar {
+    width: 5%;
+}
+
+ #profile {
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    align-items: center;
+}
+
+ #lifeline, #tip {
+    float: right;
+}
+
+ #avatar, #name {
+    float: left;
+}
+
+ main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 0;
+}
+
+ main a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
