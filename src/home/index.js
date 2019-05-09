@@ -1,4 +1,5 @@
 import makeQueen from './make-queen.js';
+import api from '../services/api.js';
 
 // Handle Form Submit and Log User Object
 
@@ -12,7 +13,6 @@ queenForm.addEventListener('submit', event => {
     const formData = new FormData(queenForm);
     // Call makeUser
     const queen = makeQueen(formData);
-    // Log returned user object
-    console.log(queen, 'queen object');
+    // Form event calls api.sigUp to save user
+    api.signUp(queen);
 });
-    

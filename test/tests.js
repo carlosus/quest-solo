@@ -1,4 +1,5 @@
 import makeQueen from '../src/home/make-queen.js';
+import './api.test.js';
 
 const test = QUnit.test;
 
