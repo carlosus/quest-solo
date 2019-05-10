@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+body {
+    margin-top: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: Barrio;
+    font-size: 1em;
+    background: url('/assets/main-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+h1 {
+    font-family: Monoton, sans-serif;
+}
+
+fieldset {
+    border: 0;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+legend {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #000;
+    border: 6px solid;
+    border-radius: 5px;
+    border-color: rgb(247, 229, 241);
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 80px rgb(231, 8, 161);
+}
+
+#queen-image {
+    width: 35%;
+    display: flex;
+    padding-top: 10px;
+}
+
+#legend-header {
+    display: block;
+    justify-content: center;
+}
+
+button {
+    padding: 12px;
+    font-family: Barrio, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgb(250, 2, 172);
+}
+
+.profile {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 80px rgb(231, 8, 161);
+    border-color: rgb(247, 229, 241);
+    border: 6px solid;
+    border-radius: 15px;
+    font-size: 1.2em;
+}

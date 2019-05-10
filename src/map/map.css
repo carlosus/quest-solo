@@ -1,0 +1,27 @@
+#avatar {
+    width: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#name {
+    float: left;
+}
+
+ #lifeline, #tip {
+    float: right;
+}
+
+ main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px 0;
+}
+
+ main a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #fff;
+ }
