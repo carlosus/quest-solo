@@ -1,19 +1,15 @@
 #avatar {
-    width: 5%;
+    width: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
- #profile {
-    border: 1px solid rgb(255, 255, 255);
-    height: 50px;
-    align-items: center;
+#name {
+    float: left;
 }
 
  #lifeline, #tip {
     float: right;
-}
-
- #avatar, #name {
-    float: left;
 }
 
  main {
@@ -26,4 +22,6 @@
  main a {
     margin: 20px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    color: #fff;
+ }
