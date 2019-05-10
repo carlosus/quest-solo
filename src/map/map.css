@@ -16,7 +16,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 100px 0;
 }
 
  main a {
@@ -25,3 +24,17 @@
     font-size: 1.4em;
     color: #fff;
  }
+
+ .profile {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 80px rgb(231, 8, 161);
+    border-color: rgb(247, 229, 241);
+    border: 6px solid;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
