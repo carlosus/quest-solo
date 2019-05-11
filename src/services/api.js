@@ -1,4 +1,4 @@
-import quests from "./quests-data.js";
+import quests from './quests-data.js';
 
 const api = {
     // Used by testing to control 
@@ -17,7 +17,14 @@ const api = {
     },
     getQuests() {
         return quests;
+    },
+    getQuest(questId) {
+        for(let i = 0; i < quests.length; i++) {
+            if(quests[i].id === questId) {
+                return quests[i];
+            }
+        }
     }
-};
+}
 
 export default api;
