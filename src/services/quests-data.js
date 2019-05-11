@@ -91,5 +91,9 @@ const lipsync = {
         `,
         LL: 25, 
         TIP: 200
-    }]
+    }] 
 };
+
+const quests = [snatch, reading, lipsync];
+
+export default quests;
