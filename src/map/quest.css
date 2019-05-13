@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+body {
+    text-align: center;
+    color: #fff;
+    font-family: Barrio;
+    font-size: 1em;
+    background: url('/assets/panel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+h1 {
+    font-family: Monoton, sans-serif;
+    font-size: 2.5em;
+}
+
+#snatch-img {
+    width: 50%;
+    border-color: rgb(247, 229, 241);
+    border: 6px solid;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#challenge-section {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 5px;
+    border-color: rgb(247, 229, 241);
+    border: 6px solid;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    padding-top: 50px;
+}

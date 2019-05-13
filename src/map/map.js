@@ -1,16 +1,15 @@
 import api from '../services/api.js';
+import loadProfile from '../load-profile.js';
+import createQuestLink from '../map/create-quest-link.js';
 
-const avatar = document.getElementById('avatar');
-const name = document.getElementById('name');
-const lifeline = document.getElementById('lifeline');
-const tip = document.getElementById('tip');
+loadProfile();
 
-const user = api.getUser();
-console.log(user);
+const quests = api.getQuests();
 
-avatar.src = '/assets/' + user.character + '.png';
-name.textContent = user.name;
+const nav = document.getElementById('quests');
 
-lifeline.textContent = 'Lifeline: ' + user.lifeLine;
-tip.textContent = 'Tip: $' + user.cashTip;
-console.log(user.name);
+for(let i = 0; i < quests.length; i++) {
+    const quest = quests[i];
+    const link = createQuestLink(quest);
+    nav.appendChild(link);
+}

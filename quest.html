@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="./src/map/quest.css">
+    <link rel="stylesheet" href="./src/map/map.css">
+</head>
+<body>
+    <header>
+        <h1 id="challenge-name">Snatch Game!</h1>
+        <div class=profile>
+            <img id="avatar">
+            <span id="name"></span>
+            <span id="lifeline">50</span>
+            <span id="tip">0</span>
+        </div>
+    </header>
+    <main>
+        <span>
+            <img id="snatch-img" src="./assets/snatch.jpeg" alt="">
+        </span>
+        <div id="challenge-section">
+            <p id='challenge-description'>'It’s time for everyone’s favorite challenge: Snatch Game!<br>Pick a celebrity to impersonate and make us laugh.'</p>
+            <fieldset id="challenge-choices">
+                <legend>Who Will You Impersonate?</legend>
+                <label>
+                    <input type="radio" name="choice">Lady Bunny
+                </label>
+                <label>
+                    <input type="radio" name="choice">Maya Angelou
+                </label>
+                <label>
+                    <input type="radio" name="choice">Adele
+                </label>
+            </fieldset>
+        </div>
+    </main>
+    <script type="module" src="./src/map/map.js"></script>    
+</body>
+</html>
